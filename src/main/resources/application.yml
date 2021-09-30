@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://orangecupmaindatabase.c1wiuw38tukn.ap-south-1.rds.amazonaws.com:3306/intelistyle?useSSL=false
+    username: tocadmin
+    password: 1Acha2Password4Jo*^hac$kNa7Kar()paayeLog1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
